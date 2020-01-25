@@ -1,0 +1,79 @@
+Commit
+Push
+Pull
+Clone
+Fetch
+Merge
+Diff
+SSH Key Generate
+Branching
+Stach
+Git GUI
+Fork
+Pull Request
+.gitignore
+
+-----------------------------------------Branching---------------
+diff head
+git checkout
+git branch idbranch
+git checkout idbranch
+git branch
+git merge branch_name
+
+git branch -d idbranch (to delete a branch)
+
+
+--------------------------
+
+git config --global user.name "Mostafij"
+git config --global user.email "rmustafizur877@gmail.com"
+
+git status
+
+git config  user.name "Mostafij" //for one project
+git config  user.email "rmustafizur877@gmail.com" //for one project
+git config --list // for seeing username and mail
+git add .
+git add all
+git log
+git log --oneline
+git checkout master
+git commit -m "text added on chocolate"
+git show
+git diff 0bea588 0bea588
+git diff --staged
+git rm hot.txt
+git reset HEAD hot.txt
+
+
+
+
+-------------SSH KEY-------------------------------
+
+Step 1: ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+Step 2:Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter]
+Step 3:eval $(ssh-agent -s)
+Step 4: ssh-add ~/.ssh/id_rsa
+ to copy the key: clip < ~/.ssh/id_rsa.pub
+
+
+----------------------------Stash--------------------------
+
+git stash (for creating a stash directory)
+git stash pop (for returning previous section)
+git stash pop stash_number
+
+
+----------------------------------------------------------
+
+git clean -f -n (for showing what will be removed)
+git clean -f(delete pernanently)
+
+---------------------------------Git ignore------------------------
+touch .gitignore  (for creating git ignore file)
+
+-----------------------------Frok----------------------------
+
+
+

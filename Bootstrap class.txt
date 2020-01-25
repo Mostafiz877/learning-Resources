@@ -1,0 +1,898 @@
+*******mx-auto(for sending something middle)
+       ml-auto(for sending something right)
+       text-center
+
+
+justify-content-center (for sending something middle)
+justify-content-end (for sending something right)
+--------------------------Basic typography-----------------------(lecture 3)
+
+1. bg-primary text-light
+2.h1 h2 h3 h4 h5 h6
+
+***for larger than header tag***
+
+3.display-1
+ display-2
+ display-3
+ display-4
+
+4.lead(for viewing paragraph well)
+
+5. font-weight-bold
+   font-weight-normal
+   font-italic
+
+6. text-lowercase
+   text-uppercase
+   text-capitalize
+
+
+7. <ul  class="list-unstyled">
+      <li>Hello</li>
+       <li>Hello</li>
+      <li>Hello</li>
+      <li>Hello</li>
+  </ul>
+
+
+
+8.      <ul  class="list-inline">
+	  <li class="list-inline-item">Hello</li>
+	  <li class="list-inline-item">Hello</li>
+	  <li class="list-inline-item">Hello</li>
+	  <li class="list-inline-item">Hello</li>
+	</ul>
+
+
+----------------------------------------------------------------------------------
+
+------------------------------Text-alignment-display-------------------(lecture 4)
+
+1.
+<p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam nobis necessitatibus dolores quas aut cum voluptates molestias praesentium ad illum tempore, maiores placeat commodi sed laboriosam, animi aliquam delectus numquam. Iusto nihil quia modi dolore ipsum dignissimos delectus non ad. </p>
+
+2.
+<p class="text-left">Lorem ipsum dolor sit amet.</p>
+<p class="text-center">Lorem ipsum dolor sit amet.</p>
+<p class="text-right">Lorem ipsum dolor sit amet.</p>
+
+----------------------Responsive Align---------------------
+
+3.
+<576 extra small
+sm-576
+md-768
+lg-992
+xl-1200
+
+  <p class="text-sm-right">Lorem ipsum dolor sit amet.</p>
+  <p class="text-md-right">Lorem ipsum dolor sit amet.</p>
+  <p class="text-lg-right">Lorem ipsum dolor sit amet.</p>
+  <p class="text-xl-right">Lorem ipsum dolor sit amet.</p>
+
+  <p class="text-sm-left">Lorem ipsum dolor sit amet.</p>
+  <p class="text-md-left">Lorem ipsum dolor sit amet.</p>
+  <p class="text-lg-left">Lorem ipsum dolor sit amet.</p>
+  <p class="text-xl-left">Lorem ipsum dolor sit amet.</p>
+
+  <p class="text-sm-center">Lorem ipsum dolor sit amet.</p>
+  <p class="text-md-center">Lorem ipsum dolor sit amet.</p>
+  <p class="text-lg-center">Lorem ipsum dolor sit amet.</p>
+  <p class="text-xl-center">Lorem ipsum dolor sit amet.</p>
+
+
+4.
+             <table style="height:100px;">
+			<tbody>
+			<tr>
+					<td class="align-baseline">Baseline</td>
+					<td class="align-top">Top</td>
+					<td class="align-middle">Middle</td>
+					<td class="align-bottom">bottom</td>
+					<td class="align-text-top">text-top</td>
+					<td class="align-text-bottom">text-bottom</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+5.
+<h1 class="bg-success d-inline">Hello</h1>
+<h1 class="bg-primary d-inline">People</h1>
+
+6.
+class="d-block"
+
+7.
+
+<div class="bg-success d-inline-block">
+	<h3>hello</h3>
+	This is inline
+</div>
+
+<div class="bg-primary d-inline-block">
+	<h3>hello</h3>
+	This is inline
+</div>
+
+(for inlining div block we have to use "d-inline-block")
+
+  ----------------------------Floats and fixed Position---------------(lecture 5)
+
+1.
+
+<div class="float-left">Float left</div>
+<div class="float-right">Float Right</div>
+<div class="float-none">Float None</div>
+
+
+2.
+<div class="float-sm-right">Lorem ipsum dolor sit amet, consectetur.</div> <br>
+<div class="float-md-right">Lorem ipsum dolor sit amet, consectetur.</div><br>
+<div class="float-lg-right">Lorem ipsum dolor sit amet, consectetur.</div><br>
+<div class="float-xl-right">Lorem ipsum dolor sit amet, consectetur.</div><br>
+
+
+float-sm-left
+float-md-left
+float-lg-left
+float-xl-left
+
+
+float-sm-none
+float-md-none
+float-lg-none
+float-xl-none
+
+
+3.
+
+<div class="bg-success clearfix">
+
+<button class="btn btn-secondary float-left">Float Left</button>
+<button class="btn btn-secondary float-right">Float Right</button>
+			
+</div>
+
+4.
+
+<h3 class="fixed-top">Fixed Top</h3>
+<h3 class="sticky-top">Lorem ipsum dolor sit amet.</h3>
+<h3 class="fixed-bottom">Lorem ipsum dolor sit amet.</h3>
+
+
+---------------------------------------------------------------------------------                                Colors and background(lecture 6)
+
+1.
+<p class="text-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eveniet corporis voluptatem, magni.</p>
+
+
+class="text-success"
+class="text-info"
+class="text-warning"
+class="text-danger"
+class="text-muted"
+class="text-white"
+
+
+2.
+bg-primary
+bg-info
+bg-success
+bg-warning
+bg-danger
+bg-dark
+bg-light
+
+3.
+class="invisible" (for vanishing the block)
+
+
+--------------------------------------------------------------------------------
+                  Margin & Padding (Spacing)(lecture 7)
+
+	<h1 class="bg-success mb-0">Lorem ipsum dolor.</h1>
+	<h1 class="bg-success mb-1">Lorem ipsum dolor.</h1>
+	<h1 class="bg-success mb-2">Lorem ipsum dolor.</h1>
+	<h1 class="bg-success mb-3">Lorem ipsum dolor.</h1>
+	<h1 class="bg-success mb-4">Lorem ipsum dolor.</h1>
+	<h1 class="bg-success mb-5">Lorem ipsum dolor.</h1>
+
+
+
+      mt-0,mt-1,mt-2,mt-3,mt-4,mt-5
+      mr-[0-5],ml-[0-5]
+      mx-[0-5] (x axis)
+      my-[0-5] (y axis)
+      m-[0-5] ( x & y axis)
+
+
+-------------Padding-----------------
+ pb,pt,pr,pl,px,py,p-[0-5]
+
+
+----------------------------------------------------------------------------------(lecture 8)
+                                    (sizing)
+  w(width)-25
+  w-50
+  w-75
+  w-100
+
+  h(height)-25
+  h-50
+  h-75
+  h-100
+
+  	<div class="clearfix">(to remove the effect of float of immediate block)
+
+	<div class="bg-primary  w-25 float-left">Width</div>
+	<div class="bg-warning w-25 float-left">Width 50%</div>
+	<div class="bg-info w-25 float-left">Width 75%</div>
+	<div class="bg-danger w-25 float-left">Width 100%</div>
+
+	</div>
+
+
+---------------------------------------------------------------------------------
+                              Media Queries (Breakpoint)(lecture-9)
+
+   extra small(0-575)
+   small device(576-767)
+   medium device(768-991)
+   large device(992-1199)
+   extra large device(1200-upper)
+
+
+
+
+		/* Small Device*/
+
+		@media(min-width:576px)
+		{
+			body{
+				background: red;
+			}
+		}
+
+
+		/* Medium Device*/
+
+		@media(min-width:768px)
+		{
+			body
+			{
+				background: yellow;
+			}
+		}
+
+
+		/* Large Device*/
+
+		@media(min-width:992px)
+		{
+			body
+			{
+				background: blue;
+			}
+		}
+
+
+
+		/* Extra large Device*/
+
+
+		@media(min-width:1200px)
+		{
+			body{
+
+				background-color: #3c3c3c;
+			}
+		}
+		
+-----------------------------
+      /*Large device*/
+
+		@media(max-width:1199px)
+		{
+			body
+			{
+				background: black;
+			}
+
+		}
+
+
+
+		   /*Medium  device*/
+
+		@media(max-width:991px)
+		{
+			body
+			{
+				background: orange;
+			}
+
+		}
+
+
+	  /*small device  device*/
+
+		@media(max-width:767px)
+		{
+			body
+			{
+				background: red;
+			}
+
+		}
+
+
+        /*extra small device*/
+
+		@media(max-width: 575px)
+		{
+			body
+			{
+				background: #3c3c3c;
+			}
+
+		}
+
+----------------------------------------------------------------------------------
+                              Button And Button Group (lecture 10)
+
+1.btn btn-sm btn-primary
+btn-secondary
+btn-successs
+btn-info
+btn-warning
+btn-danger
+btn-link
+
+2.
+ --Outline button--
+btn btn-sm btn-outline-parimary
+
+3.block button------ btn-block
+ 
+disabled (disabled button)
+
+
+4. Dropdown Button
+
+<div class="dropdown dropup">
+
+<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+My Dropdown
+</button>
+
+<div class="dropdown-menu">
+<a href=""  class="dropdown-item">Link One</a>
+<a href="" class="dropdown-item">Link Two</a>
+<a href="" class="dropdown-item">Link Three</a>
+				
+</div>
+</div>
+
+
+5. Dropdown Split
+
+
+		<div class="btn-group">
+
+			<button class="btn btn-primary"type="button">My Button</button>
+			<button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+
+				<span class="sr-only">Toggle Dropdown</span>
+				
+			</button>
+			<div class="dropdown-menu">
+
+				<a href="" class="dropdown-item">Link One</a>
+				<div class="dropdown-divider"></div>
+				<a href="" class="dropdown-item">Link Two</a>
+				<div class="dropdown-divider"></div>
+				<a href="" class="dropdown-item">Link Three</a>
+				<div class="dropdown-divider"></div>
+
+				<a href="" class="dropdown-item">Link Four</a>
+				
+			</div>
+		</div>
+
+
+6. Button Group
+
+		<div class="btn-group">
+
+			<button type="submit" class="btn btn-sm btn-primary">Left</button>
+			<button type="button" class="btn btn-sm btn-info">Middle</button>
+			<button type="button" class="btn btn-sm btn-primary">Right</button>
+
+		</div>
+
+7. Button-group-vertical
+
+		<div class="btn-group-vertical">
+
+			<button class="btn btn-primary" type="button">Left</button>
+			<button class="btn btn-info" type="button">Middle</button>
+			<button class="btn btn-warning" type="button">Right</button>
+
+		</div>
+
+-----------------------------------------------------------------------------
+                             Navbar And nav
+
+1.Simple Navbar
+
+
+    <nav class="navbar navbar-light bg-light navbar-expand-md">
+
+    	<div class="container">
+    		<a href="" class="navbar-brand">Navbar</a>
+    		<ul class="navbar-nav">
+    			<li class="nav-item">
+    				<a  class="nav-link" href="">Home</a>
+    			</li>
+
+    			<li class="nav-item">
+    				<a  class="nav-link" href="">About</a>
+    			</li>
+
+    			<li class="nav-item">
+    				<a  class="nav-link" href="">Service</a>
+    			</li>
+
+    			<li class="nav-item">
+    				<a class="nav-link"  href="">Contact</a>
+    			</li>
+    		</ul>
+    		
+    	</div>
+		
+	</nav>
+
+
+2.Navbar with responsive toggle
+
+    <nav class="navbar navbar-light bg-light navbar-expand-md">
+
+    	<div class="container">
+
+    		<a href="" class="navbar-brand">Navbar</a>
+
+    		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+
+    			<span class="navbar-toggler-icon"></span>
+    		</button>
+
+    		<div class="collapse navbar-collapse" id="navbarNav">
+
+    		<ul class="navbar-nav" >
+    			<li class="nav-item">
+    				<a  class="nav-link" href="">Home</a>
+    			</li>
+
+    			<li class="nav-item">
+    				<a  class="nav-link" href="">About</a>
+    			</li>
+
+    			<li class="nav-item">
+    				<a  class="nav-link" href="">Service</a>
+    			</li>
+
+    			<li class="nav-item">
+    				<a class="nav-link"  href="">Contact</a>
+    			</li>
+    		</ul>
+
+    		</div>
+    		
+    	</div>
+		
+	</nav>
+
+
+3.
+mx-auto(for sending something middle)
+ml-auto(for sending something right)
+
+justify-content-center (for sending something middle)
+justify-content-end (for sending something right)
+
+
+-----------------------------------------------------------------------------
+                      List Group and Badges(lecture 12)
+
+
+
+		<ul class="list-group">
+
+			<li class="list-group-item">Lorem ipsum dolor sit.</li>
+			<li class="list-group-item" >Lorem ipsum dolor sit.</li>
+			<li class="list-group-item" >Lorem ipsum dolor sit.</li>
+			<li class="list-group-item" >Lorem ipsum dolor sit.</li>
+			<li class="list-group-item" >Lorem ipsum dolor sit.</li>
+		</ul>
+
+  			
+  			<ul class="list-group mt-3">
+
+  				<a class="list-group-item list-group-item-action active" href="">Lorem ipsum dolor.</a>
+  				<a class="list-group-item list-group-item-action" href="">Lorem ipsum dolor.</a>
+  				<a class="list-group-item list-group-item-action" href="">Lorem ipsum dolor.</a>
+  				<a class="list-group-item list-group-item-action" href="">Lorem ipsum dolor.</a>
+  				<a class="list-group-item list-group-item-action" href="">Lorem ipsum dolor.</a>
+  			</ul>
+
+-------------------------------------------------------------
+                     Form And input(lecture 14)
+
+form-group
+form-control
+form-control-sm
+form-control-lg
+form-text form-muted
+
+---------------------------------------Input Group And Addon-------------------------------------------(lecture 14)
+
+
+			<div class="input-group-prepend">
+
+				<span class="input-group-text">@</span>
+				
+			</div>
+			<input class="form-control" type="text" name="" value="" placeholder="Username">
+		</div>
+
+		<br>
+		<br>
+
+
+		<div class="input-group">
+			<input  class="form-control" type="text" name="" value="" placeholder="">
+
+			<div class="input-group-append">
+
+				<span class="input-group-text">@something.com</span>
+				
+			</div>
+			
+		</div>
+
+		<label for="">Choose Profile Url</label>
+
+		<div class="input-group">
+			<div class="input-group-prepend">
+			<span class="input-group-text">https://something.com</span>
+			</div>
+			
+			<input class="form-control" type="text" name="" value="" placeholder="">
+			
+		</div>
+
+
+------------------------------------------------------------Alerts And Progresss Bar-----------------------------------------(lecture 15)
+
+1.
+----
+
+		<div class="alert alert-success">
+
+			<strong>Success</strong>Lorem ipsum dolor. <a class="alert-link" href="">Check It out</a>
+			
+		</div>
+
+
+
+		<div class="alert alert-danger">
+
+			<strong>Success</strong>Lorem ipsum dolor. <a class="alert-link" href="">Check It out</a>
+			
+		</div>
+
+
+		<div class="alert alert-success alert-dismissible">
+
+			<button type="button" class="close" data-dismiss="alert">
+				<span>&times;</span>
+			</button>
+
+			<strong>Success</strong>Lorem ipsum dolor. <a href="">Check it out</a>
+			
+		</div>
+
+
+2.
+----
+
+<div class="progress">
+			
+   <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:50%">HTML</div>
+			
+</div>
+
+3.
+-----------------------------------------------------Tables Pajination----------------------------------------------
+
+      	<ul class="pagination justify-content-center">
+			
+			<li class="page-item disabled"><a  class="page-link" href="">Previous</a></li>
+			<li class="page-item active"><a  class="page-link" href="">1</a></li>
+			<li class="page-item"><a  class="page-link" href="">2</a></li>
+			<li class="page-item"><a  class="page-link" href="">3</a></li>
+			<li class="page-item"><a class="page-link"  href="">Next</a></li>
+
+		</ul>
+
+
+-------------------------------------------------------------Cards------------------------------------------
+
+
+		<div class="card">
+			<div class="card-body">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam laudantium vel, nam earum sit, animi illo, dolor natus beatae magni commodi, molestias aspernatur dolores a deserunt. Ex, alias excepturi dolores?
+			</div>
+		</div>
+
+		<br>
+		<br>
+
+
+		<div class="card">
+
+			<div class="card-body">
+				<h4 class="card-title">Card Title</h4>
+				<h6 class="card-subtitle">Card Subtitle</h6>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat neque eaque dolorem ipsam voluptate eius.</p>
+				<a href="" class="btn btn-primary btn-sm">Read More</a>
+			</div>
+		</div>
+
+		<br>
+		<br>
+
+
+
+		<div class="card">
+
+			<div class="card-header bg-primary">
+			My card
+			</div>
+
+			<div class="card-body">
+				<h4>Card Title</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate expedita a nostrum tempora voluptatibus voluptatum neque                                  molestias asperiores, adipisci fugiat quae, recusandae obcaecati quidem eum maxime. Velit obcaecati nostrum odio.</p>
+
+				<a  class="card-link" href="">Read More</a>
+			</div>
+			
+		</div>
+
+
+
+
+------------------------------Grid System-----------------------------
+
+
+		<div class="row">
+
+			<div class="col-12 col-sm-3 col-md-4 col-lg-4 col-xl-6">
+				<h3>Mustafizur Rahman</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi soluta quod est animi repudiandae eligendi nesciunt dolor, nostrum, dolore hic!</p>
+			</div>
+
+			<div class="col-12 col-sm-3 col-md-4 col-lg-6 col-xl-3">
+				<h3>Mustafizur Rahman</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi soluta quod est animi repudiandae eligendi nesciunt dolor, nostrum, dolore hic!</p>
+			</div>
+
+			<div class="col-12  col-sm-6 col-md-4 col-lg-2 col-xl-3">
+				<h3>Mustafizur Rahman</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi soluta quod est animi repudiandae eligendi nesciunt dolor, nostrum, dolore hic!</p>
+			</div>
+
+		</div>
+
+
+offset-3
+offset-sm-3
+offset-md-3
+---------------------------------------------------Auto margin,Wrap,ordering--------------------
+
+		<div class="d-flex row-h1 flex-row">
+
+			<div class=" p-4 item-h1 mr-auto ">Flex Item</div>
+			<div class=" p-4 item-h1">Flex Item</div>
+			<div class=" p-4 item-h1">Flex Item</div>
+			
+		</div>
+
+  
+mr-auto;
+ml-auto;
+mb-auto;
+mt-auto;  
+flex-nowrap;
+flex-wrap;
+order-1;
+order-2;
+order-3;
+order-sm-1;
+odrder-sm-2;
+order-sm-3;
+
+
+-----------------------------------Carousel Slider--------------------------------
+<div id="slider1" class="carousel slide" data-ride="carousel">
+
+			<ol class="carousel-indicators">
+				<li class="active" data-target="#slider1" data-slide-to="0"></li>
+
+				<li class="active" data-target="#slider1" data-slide-to="1"></li>
+
+				<li class="active" data-target="#slider1" data-slide-to="2"></li>
+			</ol>
+
+			<div class="carousel-inner" role="listbox">
+
+				<div class="carousel-item active">
+
+					<img class="d-block img-fluid" src="http://lorempixel.com/1200/600" alt="First slide">
+
+					<div class="carousel-caption">
+						<h3>Hello World</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, ullam.</p>
+					</div>
+
+				</div>
+
+				<div class="carousel-item ">
+
+					<img class="d-block img-fluid" src="http://lorempixel.com/1200/600/sports/1" alt="First slide">
+
+					<div class="carousel-caption">
+						<h3>Hello World</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, ullam.</p>
+					</div>
+
+				</div>
+
+
+
+				<div class="carousel-item ">
+
+					<img class="d-block img-fluid" src="http://lorempixel.com/1200/600/sports/1" alt="First slide">
+
+
+					<div class="carousel-caption">
+						<h3>Hello World</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, ullam.</p>
+					</div>
+
+				</div>
+
+
+			</div>
+
+			<a href="#slider1" class="carousel-control-prev" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+
+			<a href="#slider1" class="carousel-control-next" data-slide="prev">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+			
+		</div>
+
+
+
+
+	<script>
+		$('.carousel').carousel({
+
+			interval : 2000
+
+		});
+	</script>
+
+
+------------------------------------Collapse And Accordian-----------------------------------
+
+
+		<button class="btn btn-primary" data-target="#collapse-1" data-toggle="collapse">Read more</button>
+		<br>
+
+
+		<div class="collapse" id="collapse-1">
+			<div class="card">
+				<div class="card-body">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, tempora, maiores. Optio at, dignissimos.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ducimus nulla dolorum expedita, inventore veritatis in doloremque quam blanditiis? Doloribus.
+				</div>
+			</div>
+		</div>
+
+
+----------------------------------------Accordian----------------------------------
+<div id="accordion" role="tablist">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="mb-0">
+						<a href="#section-1" data-toggle="collapse">Section 1</a>
+					</h5>
+					
+				</div>
+				<div class="collapse show" id="section-1" data-parent="#accordion">
+
+					<div class="card-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos aliquam voluptas aliquid doloremque unde iste vero culpa nulla voluptatum dolore nihil repellendus asperiores, dolorem tenetur ut enim officiis, doloribus esse!
+					</div>
+					
+				</div>
+				
+			</div>
+
+			<br>
+			<br>
+						<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="mb-0">
+						<a href="#section-2" data-toggle="collapse">Section 1</a>
+					</h5>
+					
+				</div>
+				<div class="collapse show" id="section-2" data-parent="#accordion">
+
+					<div class="card-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos aliquam voluptas aliquid doloremque unde iste vero culpa nulla voluptatum dolore nihil repellendus asperiores, dolorem tenetur ut enim officiis, doloribus esse!
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+
+-------------------------------------------------------------------
+
+		<div class="modal" id="myModal">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Modal Ttile</h5>
+						<button class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus delectus accusamus nesciunt, soluta suscipit aliquid esse eum. Obcaecati, consequatur consectetur.
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

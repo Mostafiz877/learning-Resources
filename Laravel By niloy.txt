@@ -1,0 +1,152 @@
+lecture2
+-----------------------------------------------
+
+<a href="{{route('/')}}">Home</a>
+<a href="{{url('/')}}">Home</a>
+<a href="{{URL::to('/')}}">Home</a>
+
+
+Route::get('/',[
+ 'uses'=>'StudentController@index',
+ 'as'=>'/'
+]);
+
+
+lecture3
+---------------------------------------------------
+
+----using compact---------
+return view('home',compact('name'));
+
+----using array---------
+retun view('home')->with('name',$name)->with('age',$age);
+
+----using array---------
+return view('home',['fame'=>$fame,'age'=>$age])
+
+
+
+lecture -4
+ Authentication Package------Sentinal
+ For image---intervention.io
+ For form ---- laravel collective
+ Packagist.org
+
+ Free Theme:w3layouts
+ start bootstrap.com
+
+
+php trait
+
+
+
+Lecture 5
+---------------------
+
+For every table we need a model
+
+
+public function saveCategory(Request $request)
+{
+   $Category=new Category;  //here Category is a model
+   $category->category_name  =$request->Category_name;
+   $category->category_description= $request->category_description;
+   $category->save();
+
+}
+
+
+or
+
+Category::create($request-all());
+
+
+**********For Query builder we must use "DB";
+
+DB::table('categories')->insert([
+
+   $category->category_name  =$request->Category_name;
+   $category->category_description= $request->category_description;
+
+
+
+]);
+
+
+lecture------6
+
+bootstrap glyphicon
+
+
+lecture--------7
+
+Laravel Collective
+
+lecture--------8
+
+CK Editor
+** Any function can't contain code more than 10 lines (Standard Practice)
+
+lecture--------9
+
+we can send data by serviceprovider.......(AppServiceProvider)(time 1:30)
+
+public function boot()
+{
+  View::share('name','Mustafizur Rahman');
+}
+
+***only specific view
+
+public function boot()
+{
+
+View::composer('front-end.home.home',function($view){
+
+$view->with('name','Diba Rani Ahamed');
+
+});
+
+
+}
+
+
+public function boot()//* if we want to pass data to all view
+{
+
+View::composer('*',function($view){
+
+$view->with('name','Diba Rani Ahamed');
+
+});
+
+
+}
+
+
+{{route('category-product',['id'=>$category->id] )}}//pass data through route
+
+
+
+
+lecture--------10
+
+Simple shopping cart in laravel Package.
+
+{{Form::open(['route'=>'add-to-cart','method'=>'POST'])}}
+
+{{Form::close()}}
+
+
+
+**return redirect('cart/show')
+
+
+bootstrap class "pull-right"
+
+
+
+
+
+
+
